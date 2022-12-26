@@ -52,22 +52,36 @@ body
 #player1_name , #player2_name
 {
 	display: inline-block;
-	margin-left: 20px;
+    text-align: left;
 }
+
 #word
 {
 	width: 60%;
 }
+
 #word_display
 {
 	letter-spacing: 5px;
 }
+
 #output
 {
-background: white;
+background: hwb(0 100% 0% / 0.133);
 border-radius: 10px;
-border-top: 10px solid #AA4465;
+border-top: 10px solid rgb(255, 0, 89);
 padding: 10px;
 float: none;
 text-align: left;
+}
+
+h3
+{
+    color: rgb(255, 255, 255);
+}
+
+h1
+{
+    font-size: 69px;
+    text-decoration-line: underline;
 }
